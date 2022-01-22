@@ -1,3 +1,4 @@
+# 検索プルダウンに表示する地名
 areas = [
   '釧路',
   '旭川',
@@ -23,4 +24,5 @@ areas = [
   '石垣'
 ]
 
+# 気象庁APIエンドポイント
 url = 'https://www.jma.go.jp/bosai/forecast/data/forecast/010000.json'
