@@ -10,8 +10,6 @@ def window():
 
   # Tkクラス生成
   root = Tk()
-  # # 画面サイズ
-  # root.geometry('600x400')
   # 画面タイトル
   root.title('天気予報')
 
@@ -51,5 +49,6 @@ def window():
   button.bind('<Button>',search)
   button.pack()
   result.pack()
+
   # 画面をそのまま表示
   frame.mainloop()
