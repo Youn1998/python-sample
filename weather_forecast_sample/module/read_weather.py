@@ -1,6 +1,15 @@
 import json
 
 def read_weather(file_name,search_area):
+  """予報情報読み込み
+
+  Args:
+      file_name (str): ダウンロードしたJSONファイル名
+      search_area (str): 検索地域
+
+  Returns:
+      list[str]: 検索結果
+  """
   with open(file_name,'r',encoding='UTF-8')as f:
     data = json.load(f)
 
